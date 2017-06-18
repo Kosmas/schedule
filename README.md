@@ -1,4 +1,4 @@
-== Instructions to use and deploy schedule sinatra app with DockerCloud to AWS
+## Instructions to use and deploy schedule sinatra app with DockerCloud to AWS
 
 * Create repository and push to Github
 * Create EC2 instance with IAM user in EC2 (tcp/22, tcp/2375, tcp/6783, udp/6783, tcp/7070)
