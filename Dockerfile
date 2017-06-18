@@ -1,5 +1,5 @@
 FROM ruby:2.4.0-slim
-RUN apt-get update -qq && apt install -y build-essential vim
+RUN apt-get update -qq && apt install -y build-essential vim libsqlite3-dev
 
 ENV APP_ROOT /var/www/schedule
 RUN mkdir -p $APP_ROOT
